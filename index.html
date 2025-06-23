@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>ELR Portfolio – Mohammad Gouse Moinuddin</title>
+  <title>ELR Portfolio – Gouse M Mohammad</title>
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
   <style>
     html {
@@ -15,15 +15,16 @@
   <!-- Menu Bar -->
   <header class="bg-blue-900 text-white sticky top-0 z-50 shadow">
     <div class="max-w-6xl mx-auto px-4 py-4 flex flex-wrap justify-between items-center">
-      <h1 class="text-lg font-bold">ELR Portfolio</h1>
+      <h1 class="text-lg font-bold">ELR Portfolio – Gouse M Mohammad</h1>
       <nav class="space-x-4 text-sm mt-2 sm:mt-0">
         <a href="#home" class="hover:underline">Home</a>
         <a href="#about" class="hover:underline">About</a>
         <a href="#vision" class="hover:underline">Vision</a>
-        <a href="#toolkit" class="hover:underline">Toolkit</a>
         <a href="#communication" class="hover:underline">Communication</a>
         <a href="#ethics" class="hover:underline">Ethics</a>
         <a href="#timeline" class="hover:underline">Timeline</a>
+        <a href="#systemthinkingtoolkit" class="hover:underline">SystemThinkingToolkit</a>
+        <a href="#engineeringdecisionexample" class="hover:underline">EngineeringDecisionExample</a>
         <a href="#milestones" class="hover:underline">Milestones</a>
         <a href="#outcome" class="hover:underline">Outcome</a>
         <a href="#contact" class="hover:underline">Contact</a>
@@ -47,11 +48,6 @@
       <p>I aspire to be a transformational leader by practicing emotional intelligence, servant leadership, and moral courage to create inclusive, high-performing teams.</p>
     </section>
 
-    <section id="toolkit" class="bg-white shadow rounded-xl p-6">
-      <h2 class="text-2xl font-semibold mb-2">Systems Thinking Toolkit</h2>
-      <p>Explore the problem-solving frameworks I apply: root cause analysis, decision matrices, and engineering design thinking principles for complex scenarios.</p>
-    </section>
-
     <section id="communication" class="bg-white shadow rounded-xl p-6">
       <h2 class="text-2xl font-semibold mb-2">Team Communication & Feedback</h2>
       <p>This section highlights strategies and tools for collaborative leadership, giving and receiving constructive feedback, and fostering transparent communication.</p>
@@ -72,6 +68,74 @@
   <a href="assets/docs/Gantt Chart - ELRP.xlsx" download class="inline-block bg-blue-700 text-white px-4 py-2 rounded shadow hover:bg-blue-800">
     Gantt Chart (Excel)
   </a>
+</section>
+
+<section id="systemthinkingtoolkit" class="bg-white shadow rounded-xl p-6">
+  <h2 class="text-2xl font-semibold mb-4">System Thinking Toolkit</h2>
+  <p>This provides the System Thinking toolkit for better understanding of complex organizational dynamics.</p>
+
+  <div class="flex gap-4 mb-4">
+    <button onclick="showImage('img1')" class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded">Project Delays vs Resource Allocation</button>
+    <button onclick="showImage('img2')" class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded">Team Morale vs Workload Distribution</button>
+    <button onclick="showImage('img3')" class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded">Quality Control vs Deadline Pressure</button>
+  </div>
+
+  <div id="img1" class="diagram-section">
+    <div class="diagram-placeholder">Project Delays vs Resource Allocation</div>
+    <img src="assets/images/PDvsRA.png" class="mt-4 w-full rounded border">
+    <p>
+      Emphasizing two feedback loops, the graphic illustrates a complex interplay between project delays and resource allocation in a system. Reallocating resources to the delayed project helps balance the loop, specifically the Problem Solving Loop (B1), which lowers delays. On the other hand, the Resource Shifting Loop (R1) is a reinforcing loop that generates systemic instability: reallocating resources from other projects results in delays for those projects, therefore raising the whole portfolio risk and extending delays. Reallocating resources fixes a temporary issue but causes fresh delays elsewhere, hence fostering a cycle of increasing project instability (Senge, 2006). Here, a systems thinking approach is essential, as conventional linear thinking would overlook the cascading impacts and focus solely on addressing the immediate project delay. Systems thinking helps leaders understand how actions are interconnected and how feedback loops operate especially how one problem can exacerbate another (Sterman, 2000). It offers a whole view that inhibits compartmentalized decision-making and advances long-term, sustainable solutions (Meadows, 2008). Especially in project and portfolio management, systems thinking helps prevent the "firefighting" trap in real-world leadership when resources are constantly shifted reactively. Instead, it promotes creating structural answers to boost adaptability, including reframing project scopes, enhancing resource capacity, or funding cross-functional training. Systems thinkers help leaders navigate complexity, mitigate unexpected consequences, and foster organizational resilience.
+    </p>
+    <a href="assets/docs/Systems Thinking Reflection.pdf" download class="inline-block bg-blue-700 text-white px-4 py-2 rounded shadow hover:bg-blue-800">
+    Downloadable PDF
+  </a>
+  </div>
+
+  <div id="img2" class="diagram-section hidden">
+    <div class="diagram-placeholder">Team Morale vs Workload Distribution</div>
+    <img src="assets/images/TMvsWD.png" class="mt-4 w-full rounded border">
+    <p>
+      This causal loop diagram illustrates how workload distribution impacts team morale and, in turn, influences team performance inequalities. Workload distribution causes certain team members to become overworked, which increases turnover risk and contributes to burnout. People leaving or disengaging exacerbate the imbalance, which in turn fuels animosity and lowers morale even further. This is the R1 reinforcing "Death Spiral Loop."  Conversely, good morale improves team cooperation and work quality, therefore increasing output and producing a positive "Success Loop" (R2). Here, systems thinking is essential since it exposes the feedback loops leaders might otherwise ignore. Systems thinking illustrates how closely variables like workload fairness, morale, and production interact to produce ripple effects throughout the company, therefore transcending burnout as a separate problem. Using systems thinking helps managers in real-world leadership to proactively detect and balance workloads, thereby enhancing team morale and creating resilient teams that help reduce burnout. Strategies include open communication, cross-training, and workload monitoring, which enable leaders to interrupt destructive cycles and boost positive ones. Understanding the system as a whole allows leaders to make informed, long-lasting decisions that advance both organizational effectiveness and employee well-being.
+    </p>
+  </div>
+
+  <div id="img3" class="diagram-section hidden">
+    <div class="diagram-placeholder">Quality Control vs Deadline Pressure</div>
+    <img src="assets/images/QCvsDP.png" class="mt-4 w-full rounded border">
+    <p>
+      The conflict between keeping quality control and satisfying strict project timelines is shown in this causal loop diagram.  Teams under great deadline pressure suffer and may turn to short cuts, therefore compromising the quality of goods or services.  Later discovery of flaws results from this, which causes rework and wastes of precious time.  The "Pressure-Shortcuts Death Spiral" (R1) results from time loss and bad outcomes raising future deadline pressure.  On the other hand, when quality control initiatives receive time, product quality increases, so raising consumer confidence and happiness.  This creates a good "Quality Investment Cycle" (R2), therefore lessening the strain on next initiatives.  Understanding these feedback loops and long-term repercussions calls for a systems thinking perspective.  Systems thinking helps leaders to see how each choice affects quality, time, and future workload rather than responding with shortcuts to current deadline pressure.  Using systems thinking in real-world leadership helps to create a culture that celebrates long-term gains and quality above hurried outputs.  Leaders can set aside buffer time for tests, give sustainable planning first priority, and coordinate groups toward common objectives.  Understanding how short-term decisions affect the whole system helps leaders to prevent burnout, lower rework, and guarantee both excellence and efficiency in project results.
+    </p>
+  </div>
+</section>
+
+<script>
+function showImage(id) {
+  // Hide all diagram sections
+  const sections = document.querySelectorAll('.diagram-section');
+  sections.forEach(section => section.classList.add('hidden'));
+  
+  // Show the selected section
+  document.getElementById(id).classList.remove('hidden');
+}
+
+// Show the first diagram by default
+document.addEventListener('DOMContentLoaded', function() {
+  showImage('img1');
+});
+</script>
+
+</section>
+
+    <section id="engineeringdecisionexample" class="bg-white shadow rounded-xl p-6">
+      <h2 class="text-2xl font-semibold mb-2">Engineering Decision Example</h2>
+      <p>
+        Changing manufacturing equipment, for example, can boost production. A manufacturing company modified its production line to incorporate speedier, automated technology, aiming to meet rising customer demand and increase throughput.  Although daily output increased significantly, the choice had unexpected effects throughout the system.  More faulty goods reached consumers as the higher production rate overloaded the quality inspection crew.  Teams in logistics and warehouse operations also battled the higher demand, resulting in delayed shipments and inventory mismanagement.  If not considered using a systems thinking approach, an engineering decision focused on one subsystem (such as production speed) can have adverse effects on linked areas, including quality control, logistics, and customer satisfaction (Senge, 2006; Sterman, 2000). One such real-world example is Boeing's 737 MAX production ramp-up.  Boeing accelerated its production schedule to meet demand from a competitive market.  Made mainly from a production perspective, nevertheless, this choice affected regulatory compliance, pilot training, and software validation downstream.  Two deadly crashes and the worldwide grounding of the 737 MAX fleet were caused in part by these errors.  This emphasizes the need to employ systems thinking to evaluate engineering decisions, thereby grasping more general consequences beyond the immediate subsystem (Meadows, 2008; Gelles & Kitroeff, 2019).
+      </p>
+      <a href="assets/docs/Engineering Decision Example.pdf" download class="inline-block bg-blue-700 text-white px-4 py-2 rounded shadow hover:bg-blue-800">
+      Downloadable PDF
+      </a>
+    </section>
+  
 </section>
 
     <section id="milestones" class="bg-white shadow rounded-xl p-6">
